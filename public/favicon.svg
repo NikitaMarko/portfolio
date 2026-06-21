@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2563EB"></stop>
+      <stop offset="100%" stop-color="#1D4ED8"></stop>
+    </linearGradient>
+  </defs>
+  <rect width="32" height="32" rx="8" fill="url(#bg)"></rect>
+  <text x="5" y="23" font-size="15" font-weight="700" fill="white" font-family="&#39;Inter&#39;, &#39;Helvetica Neue&#39;, sans-serif" letter-spacing="-0.5">NM</text>
+</svg>
