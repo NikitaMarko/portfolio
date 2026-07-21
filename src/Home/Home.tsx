@@ -47,7 +47,7 @@ export default function Home() {
       <div className="container home-inner">
         <div className="hero-text">
           <p data-hero-enter className="hero-greeting">{tr.greeting}</p>
-          <h1 data-hero-enter className="hero-name">Nikita<br />Markovskii</h1>
+          <h1 data-hero-enter className="hero-name">Nikita<br />Markovsky</h1>
           <p data-hero-enter className="hero-role">{tr.role}</p>
           <div data-hero-enter className="hero-company-badge">
             <span className="badge-icon">
@@ -57,7 +57,7 @@ export default function Home() {
               </svg>
             </span>
             <span className="badge-label">{tr.currentlyAt}</span>
-            <span className="badge-value">Optisor LTD</span>
+            <span className="badge-value">OptimaDevs Ltd</span>
           </div>
           <p data-hero-enter className="hero-stack">React · Node.js · TypeScript · PostgreSQL · AWS</p>
           <div data-hero-enter className="hero-cta">
@@ -69,7 +69,7 @@ export default function Home() {
         <div className="hero-photo-wrap">
           <div className="hero-photo-glow" />
           <div ref={photoRef} className="hero-photo-frame">
-            <img src={photo} alt="Nikita Markovskii" className="hero-photo-img" />
+            <img src={photo} alt="Nikita Markovsky" className="hero-photo-img" />
           </div>
           <div className="hero-badge">
             <span className="badge-dot" />

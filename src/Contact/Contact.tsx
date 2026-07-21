@@ -30,11 +30,11 @@ export default function Contact() {
   };
 
   const contacts = [
-    { label: tr.locLabel, value: tr.locVal, href: 'https://maps.google.com/?q=Herzliya+Israel', target: '_blank', icon: PIN_SVG },
-    { label: tr.emailLabel, value: 'nikita.markovskii@icloud.com', href: 'mailto:nikita.markovskii@icloud.com', target: '_self', icon: MAIL_SVG },
+    { label: tr.locLabel, value: tr.locVal, href: 'https://maps.google.com/?q=Rehovot+Israel', target: '_blank', icon: PIN_SVG },
+    { label: tr.emailLabel, value: 'nikita.markovskii.dev@gmail.com', href: 'mailto:nikita.markovskii.dev@gmail.com', target: '_self', icon: MAIL_SVG },
     { label: tr.phoneLabel, value: '+972 52-582-05-75', href: 'tel:+972525820575', target: '_self', icon: PHONE_SVG },
     { label: tr.waLabel, value: '+972 52-582-05-75', href: 'https://wa.me/972525820575', target: '_blank', icon: WA_SVG },
-    { label: tr.liLabel, value: 'nikita-markovskii-dev', href: 'https://linkedin.com/in/nikita-markovskii-dev', target: '_blank', icon: LI_SVG },
+    { label: tr.liLabel, value: 'nikita-markovsky', href: 'https://linkedin.com/in/nikita-markovsky', target: '_blank', icon: LI_SVG },
   ];
 
   const statusMap: Record<Status, [string, string, string]> = {

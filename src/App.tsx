@@ -56,8 +56,8 @@ function AppInner() {
       <footer style={{ background: '#111110', color: '#6B7280', padding: '40px 32px' }}>
         <div style={{ maxWidth: 1200, margin: '0 auto', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: 20 }}>
           <span style={{ fontFamily: 'var(--font-display)', fontSize: 18, fontWeight: 700, color: '#FFFFFF', letterSpacing: '-0.01em' }}>NM</span>
-          <p style={{ fontSize: 13 }}>© 2026 Nikita Markovskii · All rights reserved.</p>
-          <a href="https://linkedin.com/in/nikita-markovskii-dev" target="_blank" rel="noopener noreferrer" style={{ fontSize: 13, transition: 'color 0.18s' }} onMouseEnter={e => (e.currentTarget.style.color = '#fff')} onMouseLeave={e => (e.currentTarget.style.color = '#6B7280')}>LinkedIn</a>
+          <p style={{ fontSize: 13 }}>© 2026 Nikita Markovsky · All rights reserved.</p>
+          <a href="https://linkedin.com/in/nikita-markovsky" target="_blank" rel="noopener noreferrer" style={{ fontSize: 13, transition: 'color 0.18s' }} onMouseEnter={e => (e.currentTarget.style.color = '#fff')} onMouseLeave={e => (e.currentTarget.style.color = '#6B7280')}>LinkedIn</a>
         </div>
       </footer>
     </div>

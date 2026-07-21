@@ -31,7 +31,7 @@ const FloatingButtons = () => {
       </a>
 
       <a
-        href="https://www.linkedin.com/in/nikita-markovskii-dev/"
+        href="https://www.linkedin.com/in/nikita-markovsky/"
         target="_blank"
         rel="noopener noreferrer"
         className="fab fab-li"
