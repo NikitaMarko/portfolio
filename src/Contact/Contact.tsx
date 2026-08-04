@@ -7,6 +7,7 @@ const MAIL_SVG = '<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/
 const PHONE_SVG = '<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.62 3.38 2 2 0 0 1 3.6 1.21h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" stroke="#9CA3AF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>';
 const WA_SVG = '<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.57 1.37 5.05L2 22l5.08-1.35A9.94 9.94 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2z" stroke="#9CA3AF" stroke-width="1.3"/><path d="M16.5 14.5c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.65.07-1.8-.9-2.98-1.6-4.16-3.63-.32-.55.32-.51.91-1.7.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51-.17-.01-.37-.01-.57-.01-.2 0-.52.07-.79.37C6.12 7.61 5 8.62 5 10.5c0 1.88 1.53 3.7 1.74 3.96.2.25 3 4.58 7.27 6.43 1.02.44 1.81.7 2.43.9.97.31 1.85.27 2.55.16.78-.12 2.39-1.02 2.72-2 .34-.98.34-1.82.24-2-.1-.18-.38-.28-.78-.48z" fill="#9CA3AF"/></svg>';
 const LI_SVG = '<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="2" y="2" width="20" height="20" rx="4" stroke="#9CA3AF" stroke-width="1.3"/><path d="M7 10v7M7 7.5v.01M11 17v-4c0-1.1.9-2 2-2s2 .9 2 2v4" stroke="#9CA3AF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="7" cy="7.5" r=".7" fill="#9CA3AF"/></svg>';
+const GH_SVG = '<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.5.5.09.68-.22.68-.48v-1.7C6.73 19.91 6.14 18 6.14 18c-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.89 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02A9.56 9.56 0 0 1 12 6.8c.85 0 1.7.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.94.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10.01 10.01 0 0 0 22 12c0-5.52-4.48-10-10-10z" fill="#9CA3AF"/></svg>';
 
 type Status = 'idle' | 'sending' | 'success' | 'error';
 
@@ -35,6 +36,7 @@ export default function Contact() {
     { label: tr.phoneLabel, value: '+972 52-582-05-75', href: 'tel:+972525820575', target: '_self', icon: PHONE_SVG },
     { label: tr.waLabel, value: '+972 52-582-05-75', href: 'https://wa.me/972525820575', target: '_blank', icon: WA_SVG },
     { label: tr.liLabel, value: 'nikita-markovsky', href: 'https://linkedin.com/in/nikita-markovsky', target: '_blank', icon: LI_SVG },
+      { label: tr.ghLabel, value: 'NikitaMarko', href: 'https://github.com/NikitaMarko', target: '_blank', icon: GH_SVG },
   ];
 
   const statusMap: Record<Status, [string, string, string]> = {
